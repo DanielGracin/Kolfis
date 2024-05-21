@@ -10,7 +10,7 @@ body {
 }
 
 .text-primary {
-    color: rgb(1, 1, 93);
+    color: rgb(0, 0, 189);
 }
 
 p {
@@ -22,7 +22,7 @@ p {
     color: black;
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 2rem;
     position: sticky;
     top: 0;
     z-index: 1;
@@ -40,19 +40,20 @@ p {
 }
 
 #navbar ul li a {
-    padding: 0.75rem;
+    padding: 1.2rem;
     margin: 0 0.25rem;
 }
 
 #navbar ul li a:hover {
-    background-color: rgb(1, 1, 93);
-    border-radius: 5px;
+    background-color: rgb(0, 0, 189);
+    color: white;
+    border-radius: 150px;
 }
 
 #showcase {
     background: #33333395 url("../IMG/Tadyjeobrazek.png") no-repeat center center/cover;
     height: 100vh;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 #showcase .content {
@@ -63,7 +64,7 @@ p {
     align-items: center;
     height: 100%;
     padding: 0 2rem;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(198, 198, 198, 0.521);
 }
 
 .l-heading {
@@ -80,7 +81,7 @@ p {
 .btn {
     display: inline-block;
     color: white;
-    background-color: rgb(1, 1, 93);
+    background-color: rgb(0, 0, 189);
     padding: 0.5rem 2rem;
     border: none;
     border-radius: 5px;
@@ -136,7 +137,7 @@ h2 {
 }
 
 #codelame .items .item i {
-    background-color: rgb(1, 1, 93);
+    background-color: rgb(0, 0, 189);
     border-radius: 50%;
     margin: 1rem 0;
     width: 4rem;
@@ -196,7 +197,7 @@ h2 {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgb(1, 1, 93);
+    background-color: rgb(0, 0, 189);
     overflow: hidden;
     width: 0;
     height: 100%;
@@ -239,7 +240,7 @@ h2 {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: rgb(1, 1, 93);
+    background-color: rgb(0, 0, 189);
     color: white;
 }
 
@@ -253,7 +254,7 @@ textarea {
 }
 
 label {
-    color: rgb(1, 1, 93);
+    color: rgb(0, 0, 189);
     font-weight: bold;
 
 }
